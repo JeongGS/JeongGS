@@ -1,0 +1,35 @@
+
+public class arrayfor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] score;
+		score = new int[5];
+		for (int i=0; i<5; i++)
+		{
+			score[i] = i;
+		}
+		for (int j=0; j<5; j++)
+		{
+			//System.out.println(j);
+		}
+		
+		byte[] arrbyte;
+		arrbyte = new byte[] {1, 2, 3, 4, 5};
+		System.out.println(arrbyte[0]);
+		System.out.println(arrbyte[1]);
+		System.out.println(arrbyte[2]);
+		System.out.println(arrbyte[3]);
+		System.out.println(arrbyte[4]);
+		
+		char[] arrchar;
+		arrchar = new byte[5];
+		arrchar = {'A', 'B', 'C', 'D', 'ди'};
+		System.out.println(arrchar[0]);
+		System.out.println(arrchar[1]);
+		System.out.println(arrchar[2]);
+		System.out.println(arrchar[3]);
+		System.out.println(arrchar[4]);
+	}
+
+}

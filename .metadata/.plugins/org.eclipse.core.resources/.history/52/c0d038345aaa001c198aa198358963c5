@@ -1,0 +1,61 @@
+
+public class arrayfor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] score;
+		score = new int[5];
+		for (int i=0; i<5; i++)
+		{
+			score[i] = i;
+		}
+		for (int j=0; j<5; j++)
+		{
+			//System.out.println(j);
+		}
+		
+		byte[] arrbyte;
+		arrbyte = new byte[] {1, 2, 3, 4, 5};
+		System.out.println(arrbyte[0]);
+		System.out.println(arrbyte[1]);
+		System.out.println(arrbyte[2]);
+		System.out.println(arrbyte[3]);
+		System.out.println(arrbyte[4]);
+		
+		//char[] arrchar;
+		//arrchar = new char[5];
+		char[]arrchar = {'A', 'B', 'C', 'D', 'E'};
+		System.out.println(arrchar[0]);
+		System.out.println(arrchar[1]);
+		System.out.println(arrchar[2]);
+		System.out.println(arrchar[3]);
+		System.out.println(arrchar[4]);
+		
+		boolean[] arrbool;
+		arrbool =new boolean[5];
+		arrbool[0] = false;
+		arrbool[1] = true;
+		arrbool[2] = false;
+		arrbool[3] = true;
+		arrbool[4] = false;
+		System.out.println(arrbool[0]);
+		System.out.println(arrbool[1]);
+		System.out.println(arrbool[2]);
+		System.out.println(arrbool[3]);
+		System.out.println(arrbool[4]);
+		
+		short[] arrshort;
+		arrshort = new short[5];
+		arrshort[0] = 100;
+		arrshort[1] = 200;
+		arrshort[2] = 300;
+		arrshort[3] = 400;
+		arrshort[4] = 500;
+		System.out.println(arrshort[0]);
+		System.out.println(arrshort[1]);
+		System.out.println(arrshort[2]);
+		System.out.println(arrshort[3]);
+		System.out.println(arrshort[4]);
+	}
+
+}
